@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mon Site Web</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="icon" href="image/logo.png"/>
+    </head>
+    <body>
+
+          
+          
+            
+            <div id="menu-area">
+              <div class="logo">
+                  <a href="menu.html">
+                      <img src="image/logo.png" alt="" >
+                  </a>
+              </div>
+              <ul>
+                  <li><a href="menu.html">HOME</a></li>
+                  <li><a href="valorant.html">PASSION</a></li>
+                  <li><a href="Presentation.html">PRESENTATION</a></li>
+              </ul>
+          </div>
+            <script >
+              window.addEventListener("scroll", function(){
+                  let menuArea = document.getElementById('menu-area');
+            
+                  if(window.pageYOffset > 0){
+                      menuArea.classList.add("cus-nav");
+                  }else{
+                      menuArea.classList.remove("cus-nav")
+                  }
+              });
+            </script>
+          
+          
+          <div class="valorantIntro">
+      <h1 id="intro">PRESENTATION</h1>
+      <div class="introColumn">
+        <div class="introLeft">
+          <div class="introButton">
+          <h2></h2>
+          <p>
+            Je vais vous presentez mon parcours , les etudes que j'ai realisé pour arriver aux BUT R&T de Colmar , est mes poursuites d'études , ce que j'envisage de faire après mon BUT
+            Je vais aussi vous parlez de qui je suis et quel sont mes hobbies , mes passions , bref qui je suis ...
+            
+
+            <br />
+            <br />
+            <a href="Presentation.html">Decouvrir ma presentation</a>
+          </p>
+          </div>
+        </div>
+
+
+</div>
+
+
+
+<div class="agentsIntro">
+      <div class="agentsColumn">
+        <div class="agentsRight">
+          <h1>MA PASSION / VALORANT</h1>
+          <div class="agentsSub">
+            
+            <p>
+              Je vais vous parlez de ma passion VALORANT , ce jeux st un de mes passe temps favoris , je passe beaucoup d'heure dessus, parfois meme au lieu de reviser 
+            </p>
+          </div>
+          <a href="valorant.html">Decouvrir Valorant</a>
+        </div>
+        <div class="agentsLeft">
+          <img src="image/reyna1.png" alt="Agent Image" />
+        </div>
+      </div>
+    </div>
+
+    <div class="mapsIntro">
+      <div class="mapsColumn">
+        <div class="mapsLeft">
+          <h1>Mes Traces sur Internet</h1>
+          <h2></h2>
+          <p>
+            Comment effacer ces traces sur Internet , et ne pas etre vulnerable <br>
+            <br>
+            Dévouvrez le PDF disponible dans le fichier source 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    
+
+
+
+
+   
+
+    </body>
+  </html>
